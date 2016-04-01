@@ -1,0 +1,25 @@
+{
+  "name": "edm00.se",
+  "version": "1.0.0",
+  "description": "an un-url shortener",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/edm00se/edm00.se.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "url"
+  ],
+  "author": "edm00se",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/edm00se/edm00.se#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
