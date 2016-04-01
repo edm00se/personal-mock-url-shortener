@@ -1,7 +1,8 @@
 var express = require('express');
 var app = express();
 var conf = require('./config');
-var port = process.env.PORT || 3000;
+var host = (process.env.VCAP_APP_HOST || 'localhost');
+var port = (process.env.VCAP_APP_PORT || process.env.PORT || 3000);
 
 app.get('/', function (req, res) {
   var data = Object.keys(conf).sort();
