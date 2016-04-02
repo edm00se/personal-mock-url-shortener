@@ -14,6 +14,11 @@ app.get('/', function (req, res) {
   res.send(str);
 });
 
+app.get('/api', function(req, res){
+  res.set('Content-Type', 'application/json; charset=utf-8');
+  res.send(conf);
+});
+
 app.get('/:id', function(req , res){
   if (!conf[req.params.id]) {
   	res.status(404).send('<h3>Error: 404</h3>');
