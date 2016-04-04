@@ -19,6 +19,10 @@ app.get('/api', function(req, res){
   res.send(conf);
 });
 
+app.get('/.well-known/acme-challenge/'+process.env.LETS_ENCRYPT_ROUTE, function(req, res){
+  res.send(process.env.LETS_ENCRYPT_VERIFICATION);
+});
+
 app.get('/:id', function(req , res){
   if (!conf[req.params.id]) {
   	res.status(404).send('<h3>Error: 404</h3>');
