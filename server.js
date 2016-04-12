@@ -32,5 +32,5 @@ app.get('/:id', function(req , res){
 });
 
 app.listen(port, function () {
-  console.log('Example app listening on port ' + port + '!');
+  console.log('App listening on port ' + port + '!');
 });
