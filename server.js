@@ -1,17 +1,25 @@
 var express = require('express');
 var app = express();
 var conf = require('./config');
+var ejs = require('ejs');
 var host = (process.env.VCAP_APP_HOST || 'localhost');
 var port = (process.env.VCAP_APP_PORT || process.env.PORT || 3000);
 
+//enables and instantiates express-toobusy, which keeps it from melting under HIGH pressure
+app.use(require('express-toobusy')());
+
+// set the view engine to ejs
+app.set('view engine', 'ejs');
+
 app.get('/', function (req, res) {
   var data = Object.keys(conf).sort();
-  var str = '<h3>Available routes:</h3><hr /><ul>';
+  var dataStr = '';
   data.forEach(function(cur,i,ar){
-  	str += '<li><a href="' + conf[cur] + '">' + cur + '</a></li>';
+    dataStr += '<a class="list-group-item" href="' + conf[cur] + '">' + cur + '</a>';
   });
-  str += '</ul>';
-  res.send(str);
+  res.render('pages/index', {
+      listing: dataStr
+  });
 });
 
 app.get('/api', function(req, res){
@@ -25,7 +33,7 @@ app.get('/.well-known/acme-challenge/'+process.env.LETS_ENCRYPT_ROUTE, function(
 
 app.get('/:id', function(req , res){
   if (!conf[req.params.id]) {
-  	res.status(404).send('<h3>Error: 404</h3>');
+    res.status(404).send('<h3>Error: 404</h3>');
   } else {
     res.redirect(conf[req.params.id]);
   }
