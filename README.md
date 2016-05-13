@@ -10,7 +10,11 @@ This is a mock url shortener, mostly for fun.
 
 ## Usage
 
-TODO: Write usage instructions
+In order to make one your own, you will need to:
+
+* edit the `config/index.js` (config module) file to export your links
+* preserve the object format
+* it exports as JSON and will build out both the available routes for redirection and the UI dynamically
 
 ## Contributing
 
