@@ -12,9 +12,9 @@ This is a mock url shortener, mostly for fun.
 
 ## Usage
 
-In order to make one your own, you will need to:
+In order to make the project your own, you will need to:
 
-* edit the `config/index.js` (config module) file to export your links
+* edit the `config/index.js` (config module) file to export your links (make them **your** links)
 * preserve the object format
 * it exports as JSON and will build out both the available routes for redirection and the UI dynamically
 
