@@ -4,6 +4,8 @@ module.exports = {
 	"gh": "https://github.com/edm00se",
 	"blog": "https://edm00se.io/",
 	"devblog": "https://edm00se.io/",
+	"iot-pi-blog": "https://edm00se.github.io/iot-pi/",
+	"iot-pi": "https://edm00se.github.io/iot-pi/",
 	"about": "http://about.me/EricMcCormick",
 	"aboutme": "http://about.me/EricMcCormick",
 	"about.me": "http://about.me/EricMcCormick",
