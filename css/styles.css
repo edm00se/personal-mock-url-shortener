@@ -173,6 +173,18 @@ h3 {
     border-color: #2aabd2;
 }
 
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #449d44;
+    border-color: #419641;
+}
+
 .btn-lg {
   padding: .75rem 1.25rem;
   font-size: 1.25rem;
