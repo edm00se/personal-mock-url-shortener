@@ -20,6 +20,7 @@
   "license": "MIT",
   "homepage": "https://bitbucket.org/edm00se/edm00.se#readme",
   "dependencies": {
+    "clean-urls": "1.1.5",
     "compression": "^1.6.1",
     "ejs": "^2.4.1",
     "express": "^4.13.4",

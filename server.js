@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var cleanUrls = require('clean-urls');
 var conf = require('./config');
 var ejs = require('ejs');
 var compression = require('compression');
@@ -11,6 +12,9 @@ app.use(require('express-toobusy')());
 
 // compress responses
 app.use(compression());
+
+// use clean URLs (aka- /docs.html becomes /docs)
+app.use(cleanUrls());
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
