@@ -18,8 +18,9 @@ app.use(compression());
 // use clean URLs (aka- /docs.html becomes /docs)
 app.use(cleanUrls());
 
-// Node Google Analytics
-app.use(nodalytics(ga));
+// Node Google Analytics, not using, keeps reporting a constant connection of the
+// IBM Bluemix South data center :-|, pkg even accounts for x-forwarded-for IPs
+// app.use(nodalytics(ga));
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
