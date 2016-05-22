@@ -161,6 +161,18 @@ h3 {
   border-color: #01549b;
 }
 
+.btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #5bc0de;
+}
+
+.btn-info:hover {
+  color: #fff;
+    background-color: #31b0d5;
+    border-color: #2aabd2;
+}
+
 .btn-lg {
   padding: .75rem 1.25rem;
   font-size: 1.25rem;
