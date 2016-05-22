@@ -25,6 +25,7 @@
     "compression": "^1.6.1",
     "ejs": "^2.4.1",
     "express": "^4.13.4",
-    "express-toobusy": "0.0.3"
+    "express-toobusy": "0.0.3",
+    "nodalytics": "1.1.0"
   }
 }
