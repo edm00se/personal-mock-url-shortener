@@ -16,7 +16,7 @@ module.exports = function(app){
   });
 
   /**
-   * @api {get} /api/:id Request User information
+   * @api {get} /api/:id Route information
    * @apiName RouteById
    * @apiGroup Routes
    * @apiVersion 1.0.0
