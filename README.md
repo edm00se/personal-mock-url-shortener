@@ -16,7 +16,7 @@ This is a mock url shortener, mostly for fun.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-[![LAUNCH ON OpenShift](http://launch-shifter.rhcloud.com/launch/LAUNCH ON.svg)](https://openshift.redhat.com/app/console/application_type/custom?&cartridges[]=nodejs-4&initial_git_url=https://github.com/edm00se/personal-mock-url-shortener.git&name=launch)
+[![LAUNCH ON OpenShift](http://launch-shifter.rhcloud.com/launch/LAUNCH ON.svg)](https://openshift.redhat.com/app/console/application_type/custom?&cartridges[]=nodejs-0.10&initial_git_url=https://github.com/edm00se/personal-mock-url-shortener.git&name=mock-url-shorten-api)
 
 ## Usage
 
