@@ -1,5 +1,5 @@
 {
-  "name": "Mock URL Shortener and JSON API",
+  "name": "Mock URL Shortener + JSON API",
   "description": "A Node app using Express 4 to provide URL forwarding, listing, and JSON API.",
   "repository": "https://github.com/edm00se/personal-mock-url-shortener",
   "logo": "https://raw.githubusercontent.com/edm00se/personal-mock-url-shortener/master/MockURLshortenAPI.png",
