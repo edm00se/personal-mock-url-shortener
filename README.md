@@ -1,6 +1,6 @@
 # Personal Mock URL Shortener
 
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/edm00se/personal-mock-url-shortener) [![bitHound Dependencies](https://www.bithound.io/github/edm00se/personal-mock-url-shortener/badges/dependencies.svg)](https://www.bithound.io/github/edm00se/personal-mock-url-shortener/master/dependencies/npm) [![bitHound Code](https://www.bithound.io/github/edm00se/personal-mock-url-shortener/badges/code.svg)](https://www.bithound.io/github/edm00se/personal-mock-url-shortener) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)]()
+[![bitHound Dependencies](https://www.bithound.io/github/edm00se/personal-mock-url-shortener/badges/dependencies.svg)](https://www.bithound.io/github/edm00se/personal-mock-url-shortener/master/dependencies/npm) [![bitHound Code](https://www.bithound.io/github/edm00se/personal-mock-url-shortener/badges/code.svg)](https://www.bithound.io/github/edm00se/personal-mock-url-shortener) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)]()
 
 This is a mock url shortener, mostly for fun.
 
@@ -9,6 +9,14 @@ This is a mock url shortener, mostly for fun.
 * download the latest release, or clone from the latest in the `master` branch
 * install via `npm install`
 * run via `npm start`
+
+## Delpoy to PaaS
+
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/edm00se/personal-mock-url-shortener)
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+[![LAUNCH ON OpenShift](http://launch-shifter.rhcloud.com/launch/LAUNCH ON.svg)](https://openshift.redhat.com/app/console/application_type/custom?&cartridges[]=nodejs-4&initial_git_url=https://github.com/edm00se/personal-mock-url-shortener.git&name=launch)
 
 ## Usage
 
