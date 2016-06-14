@@ -1,8 +1,10 @@
 module.exports = {
 	"cv": "http://cv.ericmc.co/",
-	"github": "https://edm00se.github.io",
-	"gh": "https://edm00se.github.io",
-	"repo": "https://github.com/edm00se",
+	"github": "https://github.com/edm00se",
+	"gh": "https://github.com/edm00se",
+        "em": "https://ericmccormick.io",
+        "emoji": "https://ericmccormick.io",
+	"repos": "https://github.com/edm00se",
 	"blog": "https://edm00se.io/",
 	"devblog": "https://edm00se.io/",
 	"iot-pi-blog": "https://edm00se.github.io/iot-pi/",
