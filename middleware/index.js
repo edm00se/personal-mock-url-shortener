@@ -3,8 +3,8 @@ var cleanUrls = require('clean-urls');
 var nodalytics = require('nodalytics');
 var ga = process.env.GOOGLE_ANALYTICS || '';
 
-module.exports = function(app){
-  //enables and instantiates express-toobusy, which keeps it from melting under HIGH pressure
+module.exports = function (app) {
+  // enables and instantiates express-toobusy, which keeps it from melting under HIGH pressure
   app.use(require('express-toobusy')());
 
   // compress responses
@@ -25,7 +25,7 @@ module.exports = function(app){
       // - event - an object representing default values of the Google Analytics Event
       //           created by nodalitics for the specified request
       // Return: a Google Analytics Event object to log.
-      if( req.get('x-client-ip') ){
+      if (req.get('x-client-ip')) {
         event.uip = req.get('x-client-ip');
       }
       return event;
