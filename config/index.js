@@ -18,5 +18,7 @@ module.exports = {
   'linkedin': 'https://www.linkedin.com/in/emccormick',
   'npm': 'https://www.npmjs.com/~edm00se',
   'instagram': 'https://www.instagram.com/edm00se/',
-  'ibm': 'https://www.ibm.com/developerworks/community/profiles/html/profileView.do?key=1dea34d1-c338-4c44-950f-54c4f49f9ba3'
+  'ibm': 'https://www.ibm.com/developerworks/community/profiles/html/profileView.do?key=1dea34d1-c338-4c44-950f-54c4f49f9ba3',
+  'spaceweather': 'http://www.swpc.noaa.gov/',
+  'email': 'https://goo.gl/forms/oQeTPDqsGEWGTZoc2'
 };

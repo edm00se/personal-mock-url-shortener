@@ -16,7 +16,7 @@ module.exports = function (app) {
 
   app.get('/:id', function (req, res) {
     if (conf[req.params.id]) {
-      res.redirect(conf[req.params.id]);
+      res.redirect(302, conf[req.params.id]);
     } else {
       res.status(404).send('<h3>Error: 404</h3>');
     }
