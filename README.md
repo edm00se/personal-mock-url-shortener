@@ -1,6 +1,6 @@
 # Personal Mock URL Shortener
 
-[![bitHound Dependencies](https://www.bithound.io/github/edm00se/personal-mock-url-shortener/badges/dependencies.svg)](https://www.bithound.io/github/edm00se/personal-mock-url-shortener/master/dependencies/npm) [![bitHound Code](https://www.bithound.io/github/edm00se/personal-mock-url-shortener/badges/code.svg)](https://www.bithound.io/github/edm00se/personal-mock-url-shortener) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)]()
+[![dependencies Status](https://david-dm.org/edm00se/personal-mock-url-shortener/status.svg)](https://david-dm.org/edm00se/personal-mock-url-shortener) [![devDependencies Status](https://david-dm.org/edm00se/personal-mock-url-shortener/dev-status.svg)](https://david-dm.org/edm00se/personal-mock-url-shortener?type=dev) [![bitHound Code](https://www.bithound.io/github/edm00se/personal-mock-url-shortener/badges/code.svg)](https://www.bithound.io/github/edm00se/personal-mock-url-shortener) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)]()
 
 This is a mock url shortener, mostly for fun.
 
