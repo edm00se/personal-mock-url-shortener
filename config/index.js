@@ -26,5 +26,6 @@ module.exports = {
   'preso': 'https://github.com/edm00se/presentations#readme',
   'presentations': 'https://github.com/edm00se/presentations#readme',
   'gplus': 'https://plus.google.com/+EricMcCormickThereCanBeOnlyOne',
-  'google': 'https://plus.google.com/+EricMcCormickThereCanBeOnlyOne'
+  'google': 'https://plus.google.com/+EricMcCormickThereCanBeOnlyOne',
+  'gen-xsp': 'https://github.com/edm00se/generator-xsp'
 };
