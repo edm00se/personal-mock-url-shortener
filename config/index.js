@@ -27,5 +27,6 @@ module.exports = {
   'presentations': 'https://github.com/edm00se/presentations#readme',
   'gplus': 'https://plus.google.com/+EricMcCormickThereCanBeOnlyOne',
   'google': 'https://plus.google.com/+EricMcCormickThereCanBeOnlyOne',
-  'gen-xsp': 'https://github.com/edm00se/generator-xsp'
+  'gen-xsp': 'https://github.com/edm00se/generator-xsp',
+  'ama': 'https://github.com/edm00se/ama'
 };
