@@ -28,6 +28,7 @@ module.exports = {
   'gplus': 'https://plus.google.com/+EricMcCormickThereCanBeOnlyOne',
   'google': 'https://plus.google.com/+EricMcCormickThereCanBeOnlyOne',
   'gen-xsp': 'https://github.com/edm00se/generator-xsp',
+  'gen-preso': 'https://github.com/edm00se/generator-presto-preso',
   'ama': 'https://github.com/edm00se/ama',
   'ice-fire': 'https://github.com/edm00se/AnAppOfIceAndFire',
   'ice-fire-bluemix': 'https://github.com/edm00se/AnAppOfIceAndFire/tree/bluemix'
