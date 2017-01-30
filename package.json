@@ -23,18 +23,18 @@
   "dependencies": {
     "clean-urls": "1.1.5",
     "compression": "1.6.2",
-    "ejs": "2.5.1",
-    "express": "4.14.0",
+    "ejs": "2.5.5",
+    "express": "4.14.1",
     "express-toobusy": "0.0.3",
     "nodalytics": "1.1.0"
   },
   "devDependencies": {
-    "apidoc": "0.16.1",
+    "apidoc": "0.17.5",
     "chai": "^3.5.0",
-    "eslint": "3.2.2",
-    "eslint-config-xo-space": "^0.14.0",
-    "mocha": "3.0.1",
-    "supertest": "2.0.0"
+    "eslint": "3.14.1",
+    "eslint-config-xo-space": "^0.15.0",
+    "mocha": "3.2.0",
+    "supertest": "3.0.0"
   },
   "eslintConfig": {
     "extends": "xo-space",
