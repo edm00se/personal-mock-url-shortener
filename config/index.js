@@ -31,5 +31,6 @@ module.exports = {
   'gen-preso': 'https://github.com/edm00se/generator-presto-preso',
   'ama': 'https://github.com/edm00se/ama',
   'ice-fire': 'https://github.com/edm00se/AnAppOfIceAndFire',
-  'ice-fire-bluemix': 'https://github.com/edm00se/AnAppOfIceAndFire/tree/bluemix'
+  'ice-fire-bluemix': 'https://github.com/edm00se/AnAppOfIceAndFire/tree/bluemix',
+  'quotes': 'https://gist.github.com/edm00se/d162abcaa342c115689c'
 };
