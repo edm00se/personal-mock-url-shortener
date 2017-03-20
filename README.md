@@ -1,6 +1,6 @@
 # Personal Mock URL Shortener
 
-[![dependencies Status](https://david-dm.org/edm00se/personal-mock-url-shortener/status.svg)](https://david-dm.org/edm00se/personal-mock-url-shortener) [![devDependencies Status](https://david-dm.org/edm00se/personal-mock-url-shortener/dev-status.svg)](https://david-dm.org/edm00se/personal-mock-url-shortener?type=dev) [![bitHound Code](https://www.bithound.io/github/edm00se/personal-mock-url-shortener/badges/code.svg)](https://www.bithound.io/github/edm00se/personal-mock-url-shortener) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)]() [![Greenkeeper badge](https://badges.greenkeeper.io/edm00se/personal-mock-url-shortener.svg)](https://greenkeeper.io/)
+[![dependencies Status](https://david-dm.org/edm00se/personal-mock-url-shortener/status.svg)](https://david-dm.org/edm00se/personal-mock-url-shortener) [![devDependencies Status](https://david-dm.org/edm00se/personal-mock-url-shortener/dev-status.svg)](https://david-dm.org/edm00se/personal-mock-url-shortener?type=dev) [![bitHound Code](https://www.bithound.io/github/edm00se/personal-mock-url-shortener/badges/code.svg)](https://www.bithound.io/github/edm00se/personal-mock-url-shortener) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/edm00se/personal-mock-url-shortener/blob/master/README.md#license)
 
 This is a mock url shortener, mostly for fun.
 
@@ -16,7 +16,7 @@ This is a mock url shortener, mostly for fun.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-[![LAUNCH ON OpenShift](http://launch-shifter.rhcloud.com/launch/LAUNCH ON.svg)](https://openshift.redhat.com/app/console/application_type/custom?&cartridges%5B%5D=https://raw.githubusercontent.com/icflorescu/openshift-cartridge-nodejs/master/metadata/manifest.yml&initial_git_url=https://github.com/edm00se/personal-mock-url-shortener.git&name=mock-url-shorten-api)
+[![Launch On OpenShift](https://launch-shifter.rhcloud.com/launch/LAUNCH%20ON.svg)](https://openshift.redhat.com/app/console/application_type/custom?&cartridges%5B%5D=https://raw.githubusercontent.com/icflorescu/openshift-cartridge-nodejs/master/metadata/manifest.yml&initial_git_url=https://github.com/edm00se/personal-mock-url-shortener.git&name=mock-url-shorten-api)
 
 ## Usage
 
