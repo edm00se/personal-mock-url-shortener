@@ -33,5 +33,6 @@ module.exports = {
   'ama': 'https://github.com/edm00se/ama',
   'ice-fire': 'https://github.com/edm00se/AnAppOfIceAndFire',
   'ice-fire-bluemix': 'https://github.com/edm00se/AnAppOfIceAndFire/tree/bluemix',
-  'quotes': 'https://gist.github.com/edm00se/d162abcaa342c115689c'
+  'quotes': 'https://gist.github.com/edm00se/d162abcaa342c115689c',
+  'dev-dog': 'https://www.amazon.com/dp/B06XVW6TLL/ref=sr_1_1'
 };
