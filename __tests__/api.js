@@ -6,7 +6,8 @@ var myApi = supertest(url);
 
 describe('API', function () {
   it('serves application/json content at /api', function () {
-    myApi.get('/api')
+    myApi
+      .get('/api')
       .set('Accept', 'application/json')
       .expect(200)
       .expect('Content-Type', /json/);
