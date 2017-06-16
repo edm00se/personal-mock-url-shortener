@@ -2,12 +2,13 @@ var path = require('path');
 var conf = require(path.join(__dirname, '..', './config'));
 
 module.exports = function (app) {
-  // set up the GET routes themselves
+  // Set up the GET routes themselves
   app.get('/', function (req, res) {
     var data = Object.keys(conf).sort();
     var dataStr = '';
     data.forEach(function (cur) {
-      dataStr += '<a class="list-group-item" href="' + conf[cur] + '">' + cur + '</a>';
+      dataStr +=
+        '<a class="list-group-item" href="' + conf[cur] + '">' + cur + '</a>';
     });
     res.render('pages/index', {
       listing: dataStr

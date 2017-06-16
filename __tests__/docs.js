@@ -6,7 +6,8 @@ var myApi = supertest(url);
 
 describe('API documentation', function () {
   it('serves html content at /docs/', function () {
-    myApi.get('/docs')
+    myApi
+      .get('/docs')
       .set('Accept', 'text/html')
       .expect(200)
       .expect('Content-Type', /html/);
