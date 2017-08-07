@@ -4,7 +4,7 @@ var port = 3000;
 var url = 'http://' + host + ':' + port;
 var myApi = supertest(url);
 var path = require('path');
-var conf = require(path.join(__dirname, '..', './config'));
+var conf = require('edm00se-urls');
 
 describe('main app', function () {
   it('serves listing from /', function () {

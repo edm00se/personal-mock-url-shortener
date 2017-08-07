@@ -1,5 +1,5 @@
 var path = require('path');
-var conf = require(path.join(__dirname, '..', './config'));
+var conf = require('edm00se-urls');
 
 module.exports = function (app) {
   // Set up the GET routes themselves
