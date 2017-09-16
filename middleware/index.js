@@ -31,6 +31,10 @@ module.exports = function (app) {
         return event;
       },
       error: function (error, event, headers, req, grec, gres) {
+        if (error) {
+          /* Error can safely be ignored here */
+          console.log(error);
+        }
         // This function is called when an error occurs communicating with Google Analytics.
         // Parameters:
         // - error - the error
