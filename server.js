@@ -11,7 +11,7 @@ app.set('view engine', 'ejs');
 require('./routes')(app);
 
 // Establish simple text catch for Error 500
-app.use(function (err, req, res) {
+app.use(function(err, req, res) {
   console.error(err.stack);
   res
     .status(500)
@@ -20,6 +20,6 @@ app.use(function (err, req, res) {
     );
 });
 
-app.listen(port, function () {
+app.listen(port, function() {
   console.log('App listening on ' + host + ' on port ' + port + '!');
 });

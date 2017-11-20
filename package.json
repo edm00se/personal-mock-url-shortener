@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "test": "jest",
-    "format": "prettier-eslint \"**/*.js\" --ignore \"static/**/*.js\" --write",
+    "format": "prettier --single-quote --tab-width 2 --write \"*.js\"",
     "doc": "apidoc -o static/docs -i routes"
   },
   "repository": {
@@ -33,11 +33,9 @@
   "devDependencies": {
     "apidoc": "0.17.6",
     "chai": "4.1.2",
-    "eslint": "4.11.0",
-    "eslint-config-xo-space": "0.17.0",
     "husky": "0.14.3",
     "jest": "21.2.1",
-    "prettier-eslint-cli": "4.4.0",
+    "prettier": "1.8.2",
     "supertest": "3.0.0"
   },
   "eslintConfig": {
