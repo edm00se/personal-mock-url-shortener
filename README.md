@@ -16,7 +16,9 @@ This is a mock url shortener, mostly for fun.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-[![Launch On OpenShift](static/OpenShift_LaunchButton.svg)](https://openshift.redhat.com/app/console/application_type/custom?&cartridges%5B%5D=https://raw.githubusercontent.com/icflorescu/openshift-cartridge-nodejs/master/metadata/manifest.yml&initial_git_url=https://github.com/edm00se/personal-mock-url-shortener.git&name=mock-url-shorten-api)
+[![Launch On OpenShift](static/OpenShift_LaunchButton.svg)](https://openshift.redhat.com/app/console/application_type/custom?&cartridges%5B%5D=https://raw.githubusercontent.com/icflorescu/openshift-cartridge-nodejs/master/metadata/manifest.yml&initial_git_url=https://github.com/edm00se/personal-mock-url-shortener.git&name=mock-url-shorten-api)\*
+
+\*note: OpenShift's "launch button" no longer works with v3, and v2 is deprecated
 
 ## Usage
 
