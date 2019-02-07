@@ -1,3 +1,5 @@
+DEPRECATED: This project has been deprecated in favor of an alternate solution.
+
 # Personal Mock URL Shortener
 
 [![dependencies Status](https://david-dm.org/edm00se/personal-mock-url-shortener/status.svg)](https://david-dm.org/edm00se/personal-mock-url-shortener) [![devDependencies Status](https://david-dm.org/edm00se/personal-mock-url-shortener/dev-status.svg)](https://david-dm.org/edm00se/personal-mock-url-shortener?type=dev) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/36882bd091f9474a990c23be27a278e0)](https://www.codacy.com/app/edm00se/personal-mock-url-shortener?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=edm00se/personal-mock-url-shortener&amp;utm_campaign=Badge_Grade) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/edm00se/personal-mock-url-shortener/blob/master/README.md#license)
